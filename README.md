@@ -70,12 +70,12 @@ cd Emergencysathi
 npm install
 ```
 
-**Step 5 — Run the app**
+**Step 4 — Run the app**
 ```
 npm run dev
 ```
 
-**Step 6 — Open in browser**
+**Step 5 — Open in browser**
 ```
 http://localhost:5173
 ```
