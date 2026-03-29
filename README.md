@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# 🚨 EmergencySathi
 
-## Project info
+A crisis management web app built with React that connects 
+citizens, coordinators, and agencies during emergencies in 
+real time.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🆘 **SOS Button** — One tap emergency alert system
+- 📍 **Crisis Map** — Live incident mapping with location tracking
+- 📋 **Incident Reporting** — Report emergencies with full details
+- 👥 **Multi-role Dashboard** — Separate views for:
+  - 👤 Citizens — Report and track nearby incidents
+  - 🧑‍💼 Coordinators — Manage and assign emergency responses
+  - 🏢 Agencies — Overview of all active crisis situations
+- 🔐 **Authentication** — Secure login and signup system
+- 📊 **Stats Dashboard** — Real time crisis statistics
+- 🗺️ **Interactive Map** — Visual overview of crisis zones
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend framework |
+| TypeScript | Type safety |
+| Vite | Fast build tool |
+| Tailwind CSS | Styling |
+| shadcn-ui | UI Components |
+| MapTiler | Interactive maps |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 👤 User Roles
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🙋 Citizen
+- Report incidents in their area
+- Send SOS alerts
+- View nearby crisis events on map
 
-Follow these steps:
+### 🧑‍💼 Coordinator
+- Receive and manage incident reports
+- Assign tasks to agencies
+- Monitor response status
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🏢 Agency
+- View assigned emergencies
+- Update response status
+- Coordinate field operations
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+**Step 1 — Clone the repository**
+```
+git clone https://github.com/vedank26/Emergencysathi.git
+```
+
+**Step 2 — Navigate to project folder**
+```
+cd Emergencysathi
+```
+
+**Step 3 — Install dependencies**
+```
+npm install
+```
+
+**Step 4 — Create .env file and add your MapTiler key**
+```
+VITE_MAPTILER_KEY=your_maptiler_api_key
+```
+
+**Step 5 — Run the app**
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Step 6 — Open in browser**
+```
+http://localhost:5173
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
+```
+Emergencysathi/
+│
+├── src/
+│   ├── components/
+│   │   ├── landing/      ← Landing page sections
+│   │   ├── shared/       ← Shared components
+│   │   └── ui/           ← shadcn UI components
+│   │
+│   ├── context/          ← Auth and Coordinator context
+│   ├── data/             ← Mock data
+│   ├── hooks/            ← Custom hooks
+│   ├── pages/            ← All page components
+│   ├── types/            ← TypeScript types
+│   └── lib/              ← Utility functions
+│
+├── public/
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.ts
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🌐 Live Demo
 
-This project is built with:
+Coming soon...
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is for educational purposes.
