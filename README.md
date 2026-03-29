@@ -70,11 +70,6 @@ cd Emergencysathi
 npm install
 ```
 
-**Step 4 — Create .env file and add your MapTiler key**
-```
-VITE_MAPTILER_KEY=your_maptiler_api_key
-```
-
 **Step 5 — Run the app**
 ```
 npm run dev
